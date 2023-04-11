@@ -1,0 +1,164 @@
+.body {
+  margin-top: 150px;
+  height: 90vh;
+  width: 100%;
+}
+p {
+  font-size: 16px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+h1 {
+  font-family: "Kumbh Sans", sans-serif;
+}
+h2 {
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  border-bottom: solid lightgrey;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 80px;
+}
+.link-group {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.image-group {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.avatar {
+  width: 30%;
+  height: 4%;
+}
+
+.product {
+  display: flex;
+  gap: 15px;
+  width: 55vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.product > img {
+  width: 100%;
+}
+.thumbnail-photo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.thumbnail-photo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+.displayed-photo {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.company-description {
+  font-weight: bold;
+  color: #ff7d1b;
+}
+.product-description h2 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+}
+.product-description p {
+  opacity: 0.7;
+}
+.product-description {
+  margin-left: 40px;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 150px;
+}
+.discount-rate {
+  color: #ff7d1b;
+  background-color: #fff0e3;
+  padding: 5px;
+  font-size: smaller;
+  font-weight: 800;
+  border-radius: 4px;
+  margin: -auto;
+}
+.pricing p {
+  font-weight: 700;
+}
+#number-of-items {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+#number-of-items div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 15px;
+  border-radius: 10px;
+}
+.calculate-items {
+  background-color: #f7f8fd;
+  display: flex;
+  align-items: center;
+  width: 110px;
+}
+.initial-pricing {
+  opacity: 0.5;
+}
+
+.subtract-icon,
+.add-icon {
+  color: orange;
+}
+button {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #ff7d1b;
+  border-radius: 10px;
+  width: 220px;
+  border: none;
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.add-to-cart {
+  background-color: #ff7d1b;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart {
+  height: 40%;
+}
